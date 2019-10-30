@@ -3,22 +3,22 @@
 <head>
 	<meta charset="utf-8">
 	<title>首页</title>
-	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 </head>
 <body>
-<img src="http://pic1.win4000.com/wallpaper/7/5876eaab5e76d.jpg" class="img-rounded">
+<img src="/photo/toppic.jpg" class="img-responsive">
 
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
 	<div class="navbar-header">
 		<a class="navbar-brand" href="#">Nick-Stack</a>
-		<a class="navbar-brand" >{{today}}</a>
 	</div>
 	<div>
 		<ul class="nav navbar-nav">
-			<li class="active"><a href="#">心得分享</a></li>
+			<li class="active"><a href="#">首页</a></li>
+			<li ><a href="#">心得分享</a></li>
 			<li><a href="#">资源下载</a></li>
 			<li class="dropdown">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -33,6 +33,9 @@
 			</li>
 		</ul>
 	</div>
+		 <div  class="navbar-header pull-right">
+            		 <a class="navbar-brand">{{ today }}</a>
+		 </div>
 	</div>
 </nav>
 

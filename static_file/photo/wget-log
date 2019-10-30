@@ -1,0 +1,62 @@
+Retrying.
+
+--2019-10-28 11:57:13--  (try: 6)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 11:59:26--  (try: 7)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:01:41--  (try: 8)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:03:56--  (try: 9)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:06:12--  (try:10)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:08:29--  (try:11)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:10:47--  (try:12)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:13:04--  (try:13)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:15:21--  (try:14)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:17:38--  (try:15)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:19:56--  (try:16)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:22:13--  (try:17)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:24:30--  (try:18)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:26:47--  (try:19)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Retrying.
+
+--2019-10-28 12:29:04--  (try:20)  https://www.google.com/url?sa=i
+Connecting to www.google.com (www.google.com)|31.13.75.17|:443... failed: Connection timed out.
+Giving up.
+

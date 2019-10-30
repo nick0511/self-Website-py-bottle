@@ -5,9 +5,22 @@ mybottle = Bottle()
 
 
 
+css_root   = './static_file/css'
+photo_root = './static_file/photo'
+js_root = './static_file/js'
+
+
 @mybottle.route('/css/<path>')  
 def css(path):
-  return static_file(path, root='./static_file/css')
+  return static_file(path, root=css_root)
+
+@mybottle.route('/photo/<path>')  
+def photo(path):
+  return static_file(path, root=photo_root)
+
+@mybottle.route('/js/<path>')  
+def js(path):
+  return static_file(path, root=js_root)
 
 @mybottle.route('/')
 @view('index')
