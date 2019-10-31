@@ -49,5 +49,11 @@
 		面板内容
 	</div>
 </div>
+
+<footer class="navbar-fixed-bottom">
+	<div class="container">
+	hello
+	</div>
+</footer>
 </body>
 </html>

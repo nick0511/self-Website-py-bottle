@@ -1,9 +1,10 @@
-from bottle import Bottle, run,static_file,view
+from bottle import Bottle, run,static_file,view,error,abort
 import os,time
 
 mybottle = Bottle()
 
 
+#static_file define
 
 css_root   = './static_file/css'
 photo_root = './static_file/photo'
@@ -22,9 +23,23 @@ def photo(path):
 def js(path):
   return static_file(path, root=js_root)
 
+#error_page define
+@mybottle.error(404)
+@view('404page')
+def error404(code):
+  data = {'link':'/'}
+  return data
+
+
+@mybottle.route('/error')
+def nofount():
+  abort(404)
+
+
 @mybottle.route('/')
 @view('index')
 def index():
+  
   data = {'today':time.strftime("%Y-%m-%d")}
   return data 
 
