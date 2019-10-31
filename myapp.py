@@ -23,6 +23,11 @@ def photo(path):
 def js(path):
   return static_file(path, root=js_root)
 
+@mybottle.error(500)
+@view('500page')
+def error404(code):
+  data = {'link':'/'}
+  return data
 #error_page define
 @mybottle.error(404)
 @view('404page')
@@ -33,7 +38,7 @@ def error404(code):
 
 @mybottle.route('/error')
 def nofount():
-  abort(404)
+  abort(500)
 
 
 @mybottle.route('/')

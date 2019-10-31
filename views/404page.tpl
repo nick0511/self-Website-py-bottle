@@ -7,7 +7,7 @@
   <script src="/js/jquery.min.js"></script> 
   <link href="/css/bootstrap.min.css" rel="stylesheet" /> 
   <link href="/css/font-awesome.min.css" rel="stylesheet" /> 
-  <link href="/css/style.css" type="text/css" rel="stylesheet" media="all" /> 
+  <link href="/css/404style.css" type="text/css" rel="stylesheet" media="all" /> 
  </head> 
  <body> 
   
